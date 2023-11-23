@@ -21,6 +21,7 @@
 当然你需要了解一些MQTT订阅机制的相关知识（不想看可以直接跳过，不影响的，感兴趣就可以多学一些）
 
 #################################################################################################################################
+#QMTT
 
 MQTT 是一种轻量级的消息协议，它允许设备之间通过互联网进行通信。在 MQTT 中，消息以主题（Topic）的形式发布和订阅。主题是一个用于标识消息内容的字符串，可以看作是消息的地址。
 
@@ -51,9 +52,12 @@ https://docs.emqx.com/zh/cloud/latest/connect_to_deployments/mqttx.html
 好吧我还是写一下（在命令行<win+R然后输入cmd按回车>然后输入下面两行代码来运行
 
 MySQL Connector库用于连接和操作MySQL数据库。
+
 `pip install mysql-connector-python
 `
+
 paho-mqtt：用于与MQTT代理进行通信。
+
 `pip install paho-mqtt`
 
 然后根据我注释的python代码进行修改，即可完成操作
@@ -64,5 +68,5 @@ paho-mqtt：用于与MQTT代理进行通信。
 
 这篇写的很详细：https://blog.csdn.net/m0_74097410/article/details/131048373?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170066220716800184162331%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170066220716800184162331&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-131048373-null-null.142^v96^pc_search_result_base8&utm_term=%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B&spm=1018.2226.3001.4187
 
-好，希望能成功，祝好运
+#好，希望能成功，祝好运
 
