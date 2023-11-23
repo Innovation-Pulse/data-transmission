@@ -1,4 +1,4 @@
-# data-transmission
+# ESP32 数据上云
 主要讲述如何使用EMQX订阅主题来打通项目中的数据流
 
 
