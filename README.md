@@ -51,14 +51,10 @@ https://docs.emqx.com/zh/cloud/latest/connect_to_deployments/mqttx.html
 好吧我还是写一下（在命令行<win+R然后输入cmd按回车>然后输入下面两行代码来运行
 
 MySQL Connector库用于连接和操作MySQL数据库。
-'''
-pip install mysql-connector-python
-'''
-
+`pip install mysql-connector-python
+`
 paho-mqtt：用于与MQTT代理进行通信。
-'''
-pip install paho-mqtt
-'''
+`pip install paho-mqtt`
 
 然后根据我注释的python代码进行修改，即可完成操作
 
